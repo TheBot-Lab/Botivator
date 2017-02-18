@@ -1,7 +1,7 @@
 # Chat Bot Project
 This is the repo for the second chatbot team.
 
-The repo for **TalkToMeBot** - can be found here: https://github.com/TheBot-Lab/talktomebot
+The repo for **TalkToMeBot** can be found here: https://github.com/TheBot-Lab/talktomebot
 
 The repo for **Team-3** can be found here: https://github.com/TheBot-Lab/Team-3
 
