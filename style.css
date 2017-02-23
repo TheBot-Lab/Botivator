@@ -1,0 +1,122 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+
+.navbar{
+  background-color: #f9f9f9;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+@media (min-width:768px) {
+
+/* For inactive item hover and focus */
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+      color: #f9f9f9;
+      border-radius: 120%;
+      background-color: #ff6600;
+  }
+
+/* For active item hover and focus */
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #f9f9f9;
+    border-radius: 120%;
+    background-color: #ff6600;
+  }
+
+  .img-Align{
+    position: absolute;
+    top: -80px;
+    z-index: -1;
+  }
+
+.avatar-img{
+  margin-top: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
+
+@media (max-width:767px) {
+
+/* For inactive item hover and focus */
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+      color: #f9f9f9;
+      background-color: #ff6600;
+  }
+
+/* For inactive item hover and focus */
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #f9f9f9;
+    background-color: #ff6600;
+  }
+
+  .img-Align{
+    display: none;
+  }
+
+  .avatar-img{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+.navbar-default .navbar-brand {
+    color: #333333;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333333;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ff6600;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.4em;
+  color: #333333;
+  background-color: #f9f9f9;
+}
+
+.img-wrapper{
+  position: relative;
+}
+
+.btn-slack{
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  moz-border-radius:60px;
+	-webkit-border-radius:60px;
+	border-radius:60px;
+	border:1px solid #ff6600;
+	cursor:pointer;
+  background-color: #ff6600;
+	color:#ffffff;
+	padding:8px 48px;
+  font-size: 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff6600;
+}
+
+.welcome-heading{
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 47px;
+}
+
+.welcome-msg{
+  margin: auto;
+  width: 50%;
+}
