@@ -4,6 +4,7 @@ This part of the documentation was created using/copying (and editing, making ch
 
 
 ### Setting up Your system 
+##### Cloud9 is optional, please use the development environment that works best for you.
  
  [Video from Cloud9 documentation: creating a Cloud9 workspace ](https://docs.c9.io/docs/create-a-workspace)
  
