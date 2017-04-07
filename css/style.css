@@ -15,9 +15,7 @@ body
 {
     font-size: 1.2em;
     font-weight: bold;
-
-
-
+    box-shadow: 0 0 5px #252525;
     color: #333;
     background-color: #f9f9f9;
 }
@@ -48,6 +46,7 @@ p
     background-image: none;
     margin-bottom: 0;
 }
+
 
 .icon-bar
 {
@@ -147,11 +146,29 @@ footer
     background-color: #aa00d4;
 }
 
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #f60;
+    background-color: white; 
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* desktop and tablet support */
+
 @media only screen and (min-width: 768px )
 {
 
     .navbar-custom {
       padding: 12px 15px;
+    }
+
+    .aboutus {
+        margin-right: 10px;
     }
 
     .jumbotron
